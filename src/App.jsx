@@ -1,17 +1,22 @@
 import './App.css'
 import { BrowserRouter } from 'react-router-dom'
 import Sidebar from './components/Sidebar'
+import Home from './pages/Home'
 
 function App() {
   return (
     <BrowserRouter>
+
       <div className="app-layout">
+
         <Sidebar />
 
         <main className="main-content">
-          <h1>TP2 React Grupo 8</h1>
+          <Home />
         </main>
+
       </div>
+
     </BrowserRouter>
   )
 }

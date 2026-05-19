@@ -4,7 +4,19 @@
 
 .main-content {
   margin-left: 240px;
-  padding: 32px;
+  padding: 40px;
   min-height: 100vh;
-  background: #f8fafc;
+  background: #eef2f7;
+}
+.hero-title h1 {
+  font-size: 56px;
+  font-weight: 900;
+  background: linear-gradient(90deg, #38bdf8, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-title p {
+  color: #64748b;
+  font-size: 18px;
 }
