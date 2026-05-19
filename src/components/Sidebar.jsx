@@ -1,0 +1,26 @@
+import { NavLink } from 'react-router-dom'
+import logoGrupo from '../assets/logo-grupo8.png'
+import './Sidebar.css'
+
+function Sidebar() {
+  return (
+    <aside className="sidebar">
+      <div className="sidebar-logo">
+        <img src={logoGrupo} alt="Logo Grupo 8" />
+        <h2>Grupo 8</h2>
+        <span>TP2 React</span>
+      </div>
+
+      <nav className="sidebar-menu">
+        <NavLink to="/" className="sidebar-link">🏠 Inicio</NavLink>
+        <NavLink to="/integrantes" className="sidebar-link">👥 Integrantes</NavLink>
+        <NavLink to="/galeria" className="sidebar-link">🖼️ Galería</NavLink>
+        <NavLink to="/datos" className="sidebar-link">📊 Datos JSON</NavLink>
+        <NavLink to="/api" className="sidebar-link">🌐 API Externa</NavLink>
+        <NavLink to="/bitacora" className="sidebar-link">📝 Bitácora</NavLink>
+      </nav>
+    </aside>
+  )
+}
+
+export default Sidebar
