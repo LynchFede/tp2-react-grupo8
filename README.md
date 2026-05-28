@@ -16,3 +16,11 @@ Note: This will impact Vite dev & build performances.
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Creación de API PUBLICA:
+ Integración de API Externa
+API utilizada: GNews API (gnews.io)
+Consulta noticias en español sobre inteligencia artificial y tecnología en tiempo real
+Manejo de estados: skeleton de carga, estado de error con botón de reintento
+Paginación con botones Anterior / Siguiente e indicador de página actual
+Las tarjetas muestran imagen, fuente, fecha, título y descripción de cada artículo
