@@ -1,0 +1,16 @@
+.profile-header img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #102a57;
+}
+.profile-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.profile-header {
+  text-align: center;
+}
