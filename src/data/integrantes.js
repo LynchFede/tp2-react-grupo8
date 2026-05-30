@@ -78,11 +78,19 @@ export const integrantes = {
     rol: "Desarrollador Frontend",
     avatar: avatarDavid,
     tecnologias: ["React", "JavaScript", "HTML5", "CSS3", "Git"],
-    habilidades: [
-      { name: "COMPLETAR_HABILIDAD_1", percentage: 50 },
-      { name: "COMPLETAR_HABILIDAD_2", percentage: 50 },
-      { name: "COMPLETAR_HABILIDAD_3", percentage: 50 }
-    ],
+    
+  habilidades: [
+
+    
+      { name: "HTML", percentage: 90 },
+      { name: "CSS", percentage: 85 },
+      { name: "JavaScript", percentage: 75 },
+      { name: "React", percentage: 60 },
+      { name: "Git", percentage: 70 }
+],
+
+
+
     proyectos: [
       { nombre: "COMPLETAR_PROYECTO_1", descripcion: "Por favor, ingresá la descripción de tu primer trabajo acá.", link: "#" },
       { nombre: "COMPLETAR_PROYECTO_2", descripcion: "Por favor, ingresá la descripción de tu segundo trabajo acá.", link: "#" },
@@ -117,3 +125,21 @@ export const integrantes = {
     }
   }
 };
+
+proyectos: [
+ {
+   nombre: "Imara Creaciones",
+   descripcion: "Sitio web para emprendimiento de sublimación.",
+   link: "#"
+ },
+ {
+   nombre: "TP React Dashboard",
+   descripcion: "Dashboard desarrollado con React Router.",
+   link: "#"
+ },
+ {
+   nombre: "Landing Comercial",
+   descripcion: "Sitio promocional realizado con HTML, CSS y JavaScript.",
+   link: "#"
+ }
+]
