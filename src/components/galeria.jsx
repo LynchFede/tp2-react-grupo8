@@ -30,7 +30,7 @@ function Galeria() {
 
   return (
     <div>
-      <h1>Galería</h1>
+      <h1>Galería de bernardo</h1>
 
       <div className="gallery">
         {images.map((img, i) => (
