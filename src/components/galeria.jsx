@@ -29,10 +29,14 @@ function Galeria() {
   const [index, setIndex] = useState(0);
 
   return (
-    <div>
-      <h1>Galería de bernardo</h1>
+  <div>
+    <h1>
+      <div>
+        <h1>Galería-Grupo 8</h1>
+      </div>
+    </h1>
 
-      <div className="gallery">
+    <div className="gallery">
         {images.map((img, i) => (
           <img
             key={i}
