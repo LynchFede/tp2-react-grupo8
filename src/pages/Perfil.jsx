@@ -11,13 +11,17 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
-  FaNodeJs
+  FaNodeJs, 
+  FaLinux,
+  FaClipboardList,
+  FaNetworkWired,
+  FaTerminal
 } from "react-icons/fa";
 
 import { 
   SiSpringboot,
   SiMongodb,
-  SiSharp 
+  SiSharp,
 } from "react-icons/si";
 
 const iconosTecnologias = {
@@ -29,7 +33,11 @@ const iconosTecnologias = {
   "Node.js": FaNodeJs,
   "Spring Boot": SiSpringboot,
   "MongoDB": SiMongodb,
-  "C#": SiSharp
+  "C#": SiSharp,
+  "linux": FaLinux,
+  "visor de eventos": FaClipboardList,
+  "networking": FaNetworkWired,
+  "consola de comandos": FaTerminal
 };
 
 function Perfil() {

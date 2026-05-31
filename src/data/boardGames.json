@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Dungeons and Dragons", "description": "El clásico juego de rol de mesa de fantasía heroica.", "genre": "Rol", "year": 1974, "players": "2-6+", "duration": "120-240+ min" },
+  { "id": 2, "name": "Carcassonne", "description": "Construye el paisaje medieval de Carcassonne loseta a loseta.", "genre": "Familiar", "year": 2000, "players": "2-5", "duration": "30-45 min" },
+  { "id": 3, "name": "Pandemic", "description": "Trabaja en equipo para salvar al mundo de cuatro enfermedades mortales.", "genre": "Cooperativo", "year": 2008, "players": "2-4", "duration": "45 min" },
+  { "id": 4, "name": "Ticket to Ride", "description": "Construye rutas ferroviarias a lo largo de Norteamérica.", "genre": "Familiar", "year": 2004, "players": "2-5", "duration": "30-60 min" },
+  { "id": 5, "name": "7 Wonders", "description": "Lidera una de las siete grandes ciudades del mundo antiguo.", "genre": "Estrategia", "year": 2010, "players": "2-7", "duration": "30 min" },
+  { "id": 6, "name": "Terraforming Mars", "description": "Compite por transformar Marte en un planeta habitable.", "genre": "Estrategia", "year": 2016, "players": "1-5", "duration": "120 min" },
+  { "id": 7, "name": "Scrabble", "description": "El clásico juego de formar palabras y sumar puntos.", "genre": "Familiar", "year": 1938, "players": "2-4", "duration": "45-90 min" },
+  { "id": 8, "name": "Scythe", "description": "Estrategia en una realidad alternativa de los años 20 en Europa.", "genre": "Estrategia", "year": 2016, "players": "1-5", "duration": "90-115 min" },
+  { "id": 9, "name": "Gloomhaven", "description": "Combate táctico y exploración de mazmorras en un mundo persistente.", "genre": "Rol", "year": 2017, "players": "1-4", "duration": "60-120 min" },
+  { "id": 10, "name": "Wingspan", "description": "Atrae la mejor colección de aves a tu reserva natural.", "genre": "Estrategia", "year": 2019, "players": "1-5", "duration": "40-70 min" },
+  { "id": 11, "name": "Azul", "description": "Embellece el palacio real con azulejos decorativos.", "genre": "Abstracto", "year": 2017, "players": "2-4", "duration": "30-45 min" },
+  { "id": 12, "name": "Root", "description": "Guerra asimétrica por el control de un vasto bosque.", "genre": "Estrategia", "year": 2018, "players": "2-4", "duration": "60-90 min" },
+  { "id": 13, "name": "Blood Rage", "description": "Lidera tu clan vikingo hacia la gloria antes del Ragnarök.", "genre": "Estrategia", "year": 2015, "players": "2-4", "duration": "60-90 min" },
+  { "id": 14, "name": "Dead of Winter", "description": "Sobrevive al invierno y a los zombis, pero cuidado con el traidor.", "genre": "Temático", "year": 2014, "players": "2-5", "duration": "60-120 min" },
+  { "id": 15, "name": "Splendor", "description": "Conviértete en el mercader de joyas más rico del Renacimiento.", "genre": "Familiar", "year": 2014, "players": "2-4", "duration": "30 min" },
+  { "id": 16, "name": "Dominion", "description": "El juego pionero en la mecánica de construcción de mazos.", "genre": "Estrategia", "year": 2008, "players": "2-4", "duration": "30 min" },
+  { "id": 17, "name": "Dixit", "description": "Juego de deducción y narración con cartas de hermosas ilustraciones.", "genre": "Party", "year": 2008, "players": "3-6", "duration": "30 min" },
+  { "id": 18, "name": "El Estanciero", "description": "El clásico juego argentino de compra y venta de estancias.", "genre": "Familiar", "year": 1942, "players": "2-6", "duration": "120-240 min" },
+  { "id": 19, "name": "Ajedrez", "description": "El rey de los juegos de estrategia abstracta.", "genre": "Abstracto", "year": 1475, "players": "2", "duration": "15-60 min" },
+  { "id": 20, "name": "Damas", "description": "Juego tradicional de captura de piezas mediante saltos.", "genre": "Abstracto", "year": 1100, "players": "2", "duration": "10-30 min" }
+]

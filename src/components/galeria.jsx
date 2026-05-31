@@ -30,11 +30,9 @@ function Galeria() {
 
   return (
   <div>
-    <h1>
-      <div>
-        <h1>Galería-Grupo 8</h1>
-      </div>
-    </h1>
+    <div className="gallery-header">
+      <h1>Galería-Grupo 8</h1>
+    </div>
 
     <div className="gallery">
         {images.map((img, i) => (

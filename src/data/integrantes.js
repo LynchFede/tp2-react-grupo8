@@ -67,23 +67,26 @@ proyectos: [
 
   nahuel: {
     nombre: "Nahuel Rodríguez",
-    rol: "Desarrollador Frontend",
+    rol: "Desarrollador Frontend y analista en ciberseguridad",
     avatar: avatarNahuel,
-    tecnologias: ["React", "JavaScript", "HTML5", "CSS3", "Git"],
+    tecnologias: ["React", "Node.js", "mongoDB", "C#", "linux", "nmap", "Wireshark", "visor de eventos", "networking", "consola de comandos"],    
     habilidades: [
-      { name: "COMPLETAR_HABILIDAD_1", percentage: 50 },
-      { name: "COMPLETAR_HABILIDAD_2", percentage: 50 },
-      { name: "COMPLETAR_HABILIDAD_3", percentage: 50 }
+      { name: "React", percentage: 60 },
+      { name: "Base de Datos", percentage: 70 },
+      { name: "C#", percentage: 75 },
+      { name: "networking", percentage: 60},
+      { name: "visor de eventos", percentage: 50 },
+      { name: "Linux", percentage: 85 },
+      { name: "consola de comandos", percentage: 80 }
     ],
     proyectos: [
-      { nombre: "COMPLETAR_PROYECTO_1", descripcion: "Por favor, ingresá la descripción de tu primer trabajo acá.", link: "#" },
-      { nombre: "COMPLETAR_PROYECTO_2", descripcion: "Por favor, ingresá la descripción de tu segundo trabajo acá.", link: "#" },
-      { nombre: "COMPLETAR_PROYECTO_3", descripcion: "Por favor, ingresá la descripción de tu tercer trabajo acá.", link: "#" }
+      { nombre: "Club Deportivo Mobile", descripcion: "Aplicación móvil desarrollada en Android Studio estructurada en múltiples Activities. Cuenta con entry point de Login, Menú Principal, Registro de Clientes, módulos de Pagos (cuotas mensuales y actividades) con generación de comprobantes, y Listado de Vencimientos.", link: "https://github.com/IFTS29/ClubDeportivo-Mobile" },
+      { nombre: "CaC-movies", descripcion: "Catálogo interactivo de películas desarrollado con HTML, CSS y JavaScript como parte del programa Codo a Codo.", link: "https://nahuew.github.io/cac-movies/" }
     ],
     redes: { 
-      github: "https://github.com/COMPLETAR_USUARIO", 
-      linkedin: "https://linkedin.com/in/COMPLETAR_USUARIO", 
-      email: "COMPLETAR_CORREO@ejemplo.com" 
+      github: "https://github.com/nahuew", 
+      linkedin: "https://www.linkedin.com/in/nahuew/", 
+      email: "nahuewrodriguez@gmail.com" 
     }
   },
 
