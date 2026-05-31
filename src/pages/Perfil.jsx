@@ -1,14 +1,36 @@
 import './Perfil.css'
 import { useParams } from 'react-router-dom'
 import { integrantes } from '../data/integrantes'
+import ProjectCarousel from '../components/ProjectCarousel'
 
 import {
- FaHtml5,
- FaCss3Alt,
- FaJs,
- FaReact,
- FaGithub
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaNodeJs
 } from "react-icons/fa";
+
+import { 
+  SiSpringboot,
+  SiMongodb,
+  SiSharp 
+} from "react-icons/si";
+
+const iconosTecnologias = {
+  HTML5: FaHtml5,
+  CSS3: FaCss3Alt,
+  JavaScript: FaJs,
+  React: FaReact,
+  Git: FaGithub,
+  "Node.js": FaNodeJs,
+  "Spring Boot": SiSpringboot,
+  "MongoDB": SiMongodb,
+  "C#": SiSharp
+};
 
 function Perfil() {
   const { id } = useParams()
@@ -22,89 +44,113 @@ function Perfil() {
     )
   }
 
-//  return (
-//    <section className="profile-container">
-//      <div className="profile-header">
-//        <img src={integrante.avatar} alt={integrante.nombre} />
-//        <div>
-//          <h1>{integrante.nombre}</h1>
-//          <p>{integrante.rol}</p>
-//        </div>
-//      </div>
-//    </section>
-//  )
+  //  return (
+  //    <section className="profile-container">
+  //      <div className="profile-header">
+  //        <img src={integrante.avatar} alt={integrante.nombre} />
+  //        <div>
+  //          <h1>{integrante.nombre}</h1>
+  //          <p>{integrante.rol}</p>
+  //        </div>
+  //      </div>
+  //    </section>
+  //  )
 
-return (
-  <section className="profile-container">
+  return (
+    <section className="profile-container">
 
-    <div className="profile-header">
-      <img src={integrante.avatar} alt={integrante.nombre} />
-      <div>
-        <h1>{integrante.nombre}</h1>
-        <p>{integrante.rol}</p>
-      </div>
-    </div>
-
-    <div className="habilidades">
-
-  <h2>Habilidades</h2>
-
-  {integrante.habilidades.map((hab) => (
-    <div key={hab.name} className="skill-item">
-
-      <div className="skill-header">
-        <span>{hab.name}</span>
-        <span>{hab.percentage}%</span>
+      <div className="profile-header">
+        <img src={integrante.avatar} alt={integrante.nombre} />
+        <div>
+          <h1>{integrante.nombre}</h1>
+          <p>{integrante.rol}</p>
+        </div>
       </div>
 
-      <div className="barra">
-        <div
-          className="progreso"
-          style={{ width: `${hab.percentage}%` }}
-        ></div>
+      <div className="habilidades">
+
+        <h2>Habilidades</h2>
+
+        {integrante.habilidades.map((hab) => (
+          <div key={hab.name} className="skill-item">
+
+            <div className="skill-header">
+              <span>{hab.name}</span>
+              <span>{hab.percentage}%</span>
+            </div>
+
+            <div className="barra">
+              <div
+                className="progreso"
+                style={{ width: `${hab.percentage}%` }}
+              ></div>
+            </div>
+
+          </div>
+        ))}
+
       </div>
 
-    </div>
-  ))}
+      <h2>Tecnologías</h2>
 
-</div>
+      <div className="tech-stack">
 
-<h2>Tecnologías</h2>
+        {integrante.tecnologias.map((tec) => {
 
-<div className="tech-stack">
-  <FaHtml5 className="tech-icon" />
-  <FaCss3Alt className="tech-icon" />
-  <FaJs className="tech-icon" />
-  <FaReact className="tech-icon" />
-  <FaGithub className="tech-icon" />
-</div>
+          const Icono = iconosTecnologias[tec];
 
-<h2>Redes</h2>
+          if (!Icono) return null;
 
-<div className="social-links">
+          return (
+            <div key={tec}>
+              <Icono
+                className="tech-icon"
+                title={tec}
+              />
+            </div>
+          );
+        })}
 
-  <a
-    href={integrante.redes.github}
-    target="_blank"
-    rel="noreferrer"
-    className="social-btn"
-  >
-    GitHub
-  </a>
+      </div>
 
-  <a
-    href={integrante.redes.linkedin}
-    target="_blank"
-    rel="noreferrer"
-    className="social-btn"
-  >
-    LinkedIn
-  </a>
+      <h2>Proyectos</h2>
 
-</div>
+      <ProjectCarousel proyectos={integrante.proyectos} />
 
-  </section>
-)   
+      <h2>Redes</h2>
+
+      <div className="social-links">
+
+        <a
+          href={integrante.redes.github}
+          target="_blank"
+          rel="noreferrer"
+          className="social-icon"
+        >
+          <FaGithub />
+        </a>
+
+        <a
+          href={integrante.redes.linkedin}
+          target="_blank"
+          rel="noreferrer"
+          className="social-icon"
+        >
+          <FaLinkedin />
+        </a>
+
+        <a
+          href={`mailto:${integrante.redes.email}`}
+          className="social-icon"
+          title={integrante.redes.email}
+        >
+          <FaEnvelope />
+        </a>
+
+      </div>
+
+    </section>
+  )
 
 
 }

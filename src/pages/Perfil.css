@@ -37,6 +37,7 @@
 /* ===== TITULOS ===== */
 
 .profile-container h2 {
+  text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
   color: #102a57;
@@ -75,6 +76,7 @@
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 25px;
   margin-bottom: 30px;
 }
@@ -93,23 +95,29 @@
 
 .social-links {
   display: flex;
-  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
   margin-bottom: 40px;
 }
 
-.social-btn {
-  padding: 12px 24px;
+.social-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #1e3a8a;
   color: white;
+  border-radius: 50%;
+  font-size: 2rem;
   text-decoration: none;
-  border-radius: 10px;
-  font-weight: bold;
   transition: all 0.3s ease;
 }
 
-.social-btn:hover {
+.social-icon:hover {
   background: #2563eb;
-  transform: scale(1.08);
+  transform: scale(1.15);
 }
 
 /* ===== RESPONSIVE ===== */

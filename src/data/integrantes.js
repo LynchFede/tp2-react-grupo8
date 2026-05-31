@@ -107,21 +107,21 @@ export const integrantes = {
     nombre: "Cristina Roma",
     rol: "Desarrolladora Frontend",
     avatar: avatarCristina,
-    tecnologias: ["React", "JavaScript", "HTML5", "CSS3", "Git"],
+    tecnologias: ["React", "Spring Boot", "Node.js", "C#", "MongoDB"],
     habilidades: [
-      { name: "COMPLETAR_HABILIDAD_1", percentage: 50 },
-      { name: "COMPLETAR_HABILIDAD_2", percentage: 50 },
-      { name: "COMPLETAR_HABILIDAD_3", percentage: 50 }
+      { name: "React", percentage: 80 },
+      { name: "Spring", percentage: 75 },
+      { name: "Node.js", percentage: 90 }
     ],
     proyectos: [
-      { nombre: "COMPLETAR_PROYECTO_1", descripcion: "Por favor, ingresá la descripción de tu primer trabajo acá.", link: "#" },
-      { nombre: "COMPLETAR_PROYECTO_2", descripcion: "Por favor, ingresá la descripción de tu segundo trabajo acá.", link: "#" },
-      { nombre: "COMPLETAR_PROYECTO_3", descripcion: "Por favor, ingresá la descripción de tu tercer trabajo acá.", link: "#" }
+      { nombre: "Club Deportivo Victoria", descripcion: "Sistema de gestión para un club deportivo desarrollado en Android Studio con Kotlin, que permite administrar socios, pagos de cuotas e inscripciones a actividades mediante una base de datos SQLite.", link: "https://github.com/Maricroma/ClubDeportivoVictoria" },
+      { nombre: "Sistema de Gestión de Productos", descripcion: "Proyecto desarrollado en C# y .NET orientado a la validación de reglas de negocio mediante pruebas unitarias con NUnit, incluyendo gestión de productos, cálculo de impuestos y búsquedas avanzadas.", link: "https://github.com/Maricroma/sistema-gestion-productos" },
+      { nombre: "Sistema de Gestión para Club Deportivo", descripcion: "Aplicación de escritorio desarrollada en C# que permite registrar socios y no socios, validar información automáticamente, gestionar inscripciones y generar registros de clientes para optimizar la administración del club.", link: "https://github.com/Maricroma/ClubDeportivo" }
     ],
     redes: { 
-      github: "https://github.com/COMPLETAR_USUARIO", 
-      linkedin: "https://linkedin.com/in/COMPLETAR_USUARIO", 
-      email: "COMPLETAR_CORREO@ejemplo.com" 
+      github: "https://github.com/Maricroma", 
+      linkedin: "https://linkedin.com/in/maricroma", 
+      email: "cris.apdg@gmail.com" 
     }
   }
 };
