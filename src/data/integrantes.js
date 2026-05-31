@@ -12,15 +12,29 @@ export const integrantes = {
     rol: "Desarrollador Frontend",
     avatar: avatarFede,
     tecnologias: ["React", "JavaScript", "HTML5", "CSS3", "Git"],
-    habilidades: [
-      { name: "COMPLETAR_HABILIDAD_1", percentage: 50 },
-      { name: "COMPLETAR_HABILIDAD_2", percentage: 50 },
-      { name: "COMPLETAR_HABILIDAD_3", percentage: 50 }
+   habilidades: [
+  { name: "React", percentage: 80 },
+  { name: "Spring", percentage: 70 },
+  { name: "JavaScript", percentage: 80 },
+  { name: "CSS", percentage: 90 },
+  { name: "HTML", percentage: 85 }
     ],
-    proyectos: [
-      { nombre: "COMPLETAR_PROYECTO_1", descripcion: "Por favor, ingresá la descripción de tu primer trabajo acá.", link: "#" },
-      { nombre: "COMPLETAR_PROYECTO_2", descripcion: "Por favor, ingresá la descripción de tu segundo trabajo acá.", link: "#" },
-      { nombre: "COMPLETAR_PROYECTO_3", descripcion: "Por favor, ingresá la descripción de tu tercer trabajo acá.", link: "#" }
+proyectos: [
+  {
+    nombre: "Lynch_PFO1",
+    descripcion: "Proyecto Front-End desarrollado para la materia Programación Front-End, aplicando HTML, CSS y JavaScript.",
+    link: "https://github.com/LynchFede/Lynch_PFO1"
+  },
+  {
+    nombre: "tp2-react-grupo8",
+    descripcion: "Dashboard desarrollado con React y Vite. Incluye perfiles, React Router, API externa, galería interactiva y componentes reutilizables.",
+    link: "https://github.com/LynchFede/tp2-react-grupo8"
+  },
+  {
+    nombre: "tp1-web-grupo-8",
+    descripcion: "Trabajo Práctico 1 realizado en equipo utilizando HTML, CSS y JavaScript con diseño responsive y navegación entre perfiles.",
+    link: "https://github.com/LynchFede/tp1-web-grupo-8"
+  }
     ],
     redes: { 
       github: "https://github.com/COMPLETAR_USUARIO", 
