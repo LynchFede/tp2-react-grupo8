@@ -1,8 +1,13 @@
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr); /* Se transforma en 3 columnas */
+  }
 }
 
 .gallery img {
@@ -17,11 +22,3 @@
 .gallery img:hover {
   transform: scale(1.05);
 }
-
-function Galeria() {
-  return (
-    <h1>FUNCIONA</h1>
-  )
-}
-
-export default Galeria
