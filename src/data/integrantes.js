@@ -71,9 +71,9 @@ proyectos: [
     avatar: avatarNahuel,
     tecnologias: ["React", "Node.js", "mongoDB", "C#", "linux", "nmap", "Wireshark", "visor de eventos", "networking", "consola de comandos"],    
     habilidades: [
-      { name: "React", percentage: 60 },
+      { name: "React", percentage: 40 },
       { name: "Base de Datos", percentage: 70 },
-      { name: "C#", percentage: 75 },
+      { name: "C#", percentage: 60 },
       { name: "networking", percentage: 60},
       { name: "visor de eventos", percentage: 50 },
       { name: "Linux", percentage: 85 },

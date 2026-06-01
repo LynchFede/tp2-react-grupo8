@@ -5,7 +5,7 @@ import ApiPublic from './pages/apiPublic'
 
 import Sidebar from './components/Sidebar'
 import Home from './pages/Home'
-import Integrantes from './pages/Integrantes'
+import Integrantes from './pages/Home'
 import Perfil from './pages/Perfil'
 import Galeria from './components/galeria'
 import TechNews from './pages/apiPublic'
@@ -23,7 +23,6 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/integrantes" element={<Integrantes />} />
             <Route path="/perfil/:id" element={<Perfil />} />
             <Route path="/tech-news" element={<ApiPublic />} />
             <Route path="/galeria" element={<Galeria />} />
