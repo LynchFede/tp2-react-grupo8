@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { integrantes } from '../data/integrantes'
 import './Home.css'
 
-function Integrantes() {
+function Home() {
   return (
     <section className="home">
       <div className="home-header">
@@ -37,4 +37,4 @@ function Integrantes() {
   )
 }
 
-export default Integrantes
+export default Home

@@ -5,7 +5,6 @@ import ApiPublic from './pages/apiPublic'
 
 import Sidebar from './components/Sidebar'
 import Home from './pages/Home'
-import Integrantes from './pages/Home'
 import Perfil from './pages/Perfil'
 import Galeria from './components/galeria'
 import TechNews from './pages/apiPublic'
