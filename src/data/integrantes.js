@@ -81,7 +81,7 @@ proyectos: [
     ],
     proyectos: [
       { nombre: "Club Deportivo Mobile", descripcion: "Aplicación móvil desarrollada en Android Studio estructurada en múltiples Activities. Cuenta con entry point de Login, Menú Principal, Registro de Clientes, módulos de Pagos (cuotas mensuales y actividades) con generación de comprobantes, y Listado de Vencimientos.", link: "https://github.com/IFTS29/ClubDeportivo-Mobile" },
-      { nombre: "CaC-movies", descripcion: "Catálogo interactivo de películas desarrollado con HTML, CSS y JavaScript como parte del programa Codo a Codo.", link: "https://nahuew.github.io/cac-movies/" }
+      { nombre: "CaC-movies", descripcion: "Catálogo interactivo de películas desarrollado con HTML, CSS y JavaScript como parte del programa Codo a Codo.", link: "https://nahuew.github.io/cac-movies/"}
     ],
     redes: { 
       github: "https://github.com/nahuew", 
