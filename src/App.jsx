@@ -9,6 +9,7 @@ import Perfil from './pages/Perfil'
 import Galeria from './components/galeria'
 import TechNews from './pages/apiPublic'
 import BoardGames from './pages/boardGames'
+import Bitacora from './pages/bitacora'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="/tech-news" element={<ApiPublic />} />
             <Route path="/galeria" element={<Galeria />} />
             <Route path="/board-games" element={<BoardGames />} />
+            <Route path="/bitacora" element={<Bitacora />} />
           </Routes>
 
         </main>
