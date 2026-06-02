@@ -1,10 +1,12 @@
 .app-layout {
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .main-content {
-  margin-left: 240px;
-  padding: 40px;
+  margin-left: 260px;
+
   min-height: 100vh;
   background: #eef2f7;
 }

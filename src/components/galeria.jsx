@@ -29,31 +29,23 @@ function Galeria() {
   const [index, setIndex] = useState(0);
 
   return (
-  <div>
-    <div className="gallery-header">
-      <h1>Galería-Grupo 8</h1>
-    </div>
-
-    <div className="gallery">
-        {images.map((img, i) => (
+    <div className="gallery-container">
+      <div className="gallery-header">
+        <h1>Galería de Imágenes</h1>
+      </div>
+      <div className="gallery">
+        {images.map((image, idx) => (
           <img
-            key={i}
-            src={img.src}
-            alt=""
+            key={idx}
+            src={image.src}
+            alt={`Imagen ${idx + 1}`}
             onClick={() => {
-              setIndex(i);
               setOpen(true);
+              setIndex(idx);
             }}
           />
         ))}
       </div>
-
-      <Lightbox
-        open={open}
-        close={() => setOpen(false)}
-        slides={images}
-        index={index}
-      />
     </div>
   );
 }
