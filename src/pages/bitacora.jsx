@@ -1,5 +1,5 @@
 import React from 'react'
-import './Bitacora.css'
+import './bitacora.css'
 
 const tareas = [
   'Implementación de la navegación tipo Dashboard mediante Sidebar y React Router.',

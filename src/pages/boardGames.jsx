@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import boardGamesData from '../data/boardGames.json'
-import GameCard from '../components/GameCard'
+import GameCard from '../components/gameCard'
 import './boardGames.css'
 
 function BoardGames() {
