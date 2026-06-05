@@ -80,8 +80,10 @@ proyectos: [
       { name: "consola de comandos", percentage: 80 }
     ],
     proyectos: [
+      
       { nombre: "Club Deportivo Mobile", descripcion: "Aplicación móvil desarrollada en Android Studio estructurada en múltiples Activities. Cuenta con entry point de Login, Menú Principal, Registro de Clientes, módulos de Pagos (cuotas mensuales y actividades) con generación de comprobantes, y Listado de Vencimientos.", link: "https://github.com/IFTS29/ClubDeportivo-Mobile" },
-      { nombre: "CaC-movies", descripcion: "Catálogo interactivo de películas desarrollado con HTML, CSS y JavaScript como parte del programa Codo a Codo.", link: "https://nahuew.github.io/cac-movies/"}
+      { nombre: "CaC-movies", descripcion: "Catálogo interactivo de películas desarrollado con HTML, CSS y JavaScript como parte del programa Codo a Codo.", link: "https://nahuew.github.io/cac-movies/"},
+      {nombre: "tp1-web-grupo-8", descripcion: "Trabajo Práctico 1 realizado en equipo utilizando HTML, CSS y JavaScript con diseño responsive y navegación entre perfiles.", link: "https://github.com/LynchFede/tp1-web-grupo-8"}
     ],
     redes: { 
       github: "https://github.com/nahuew", 
@@ -142,21 +144,3 @@ proyectos: [
     }
   }
 };
-
-proyectos: [
- {
-   nombre: "Imara Creaciones",
-   descripcion: "Sitio web para emprendimiento de sublimación.",
-   link: "#"
- },
- {
-   nombre: "TP React Dashboard",
-   descripcion: "Dashboard desarrollado con React Router.",
-   link: "#"
- },
- {
-   nombre: "Landing Comercial",
-   descripcion: "Sitio promocional realizado con HTML, CSS y JavaScript.",
-   link: "#"
- }
-]
