@@ -2,11 +2,61 @@
   width: 100%;
   padding-top: 20px;
 }
+.render-tree-section p {
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 16px;
+  text-indent: 2em;
+}
+.tree-image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.team-section {
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
 
+.team-section h2 {
+  color: #0f172a;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.team-section p {
+  color: #64748b;
+  font-size: 16px;
+}
+.tree-image {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
 .home-header {
   padding-top: 20px;
 }
+.render-tree-section {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 30px;
+}
 
+.render-tree-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.render-tree-section p {
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.render-tree-section .profile-link {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+}
 .home-badge {
   display: inline-block;
   background: #dbeafe;
