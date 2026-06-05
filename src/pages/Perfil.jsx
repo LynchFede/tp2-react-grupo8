@@ -1,7 +1,7 @@
 import './Perfil.css'
 import { useParams } from 'react-router-dom'
 import { integrantes } from '../data/integrantes'
-import ProjectCarousel from '../components/ProjectCarousel'
+import ProjectCarousel from '../components/projectCarousel'
 
 import {
   FaHtml5,
