@@ -17,6 +17,8 @@ function Sidebar() {
         <NavLink to="/board-games" className="sidebar-link">📊 Juegos de mesa</NavLink>
         <NavLink to="/tech-news" className="sidebar-link">🌐 API Externa Noticias Tech </NavLink>
         <NavLink to="/bitacora" className="sidebar-link">📝 Bitácora</NavLink>
+        <NavLink to="/arquitectura" className="sidebar-link">🏗️ Arquitectura</NavLink>
+      
       </nav>
     </aside>
   )

@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ApiPublic from './pages/apiPublic'
+import Arquitectura from './pages/Arquitectura'
 
 
 import Sidebar from './components/Sidebar'
@@ -28,6 +29,7 @@ function App() {
             <Route path="/galeria" element={<Galeria />} />
             <Route path="/board-games" element={<BoardGames />} />
             <Route path="/bitacora" element={<Bitacora />} />
+            <Route path="/arquitectura" element={<Arquitectura />} />
           </Routes>
 
         </main>

@@ -1,0 +1,28 @@
+.arquitectura {
+  padding: 2rem;
+}
+
+.render-tree-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.render-tree-section h2 {
+  margin-bottom: 20px;
+}
+
+.render-tree-section p {
+  margin-bottom: 15px;
+  line-height: 1.7;
+}
+
+.tree-image-container {
+  margin-top: 30px;
+}
+
+.tree-image {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 10px;
+}
